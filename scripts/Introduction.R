@@ -57,4 +57,8 @@ no_membrs[no_membrs >= 7 & no_membrs == 3]
 
 possessions[possessions == "car" | possessions == "bicycle"] # returns both car and bicycle
 possessions %in% c("car", "bicycle")
+c("car", "bicycle") %in% possessions
 possessions[possessions %in% c("car", "bicycle")]
+
+
+
