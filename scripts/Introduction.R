@@ -21,8 +21,25 @@ area
 
 round(digits = 2, x = 3.14159)
 
+no_membrs <- c(3, 7, 10, 6)
+length(no_membrs)
+class(no_membrs)
+str(no_membrs)
 
+respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks")
+length(respondent_wall_type)
+class(respondent_wall_type)
+str(respondent_wall_type)
 
+possessions <- c("bicycle", "radio", "television")
+possessions <- c(possessions, "mobile_phone")  # add another element to vector
+possessions <- c("car", possessions)
 
+num_char <- c(1,2,3, "a")
+num_logical <- c(1, 2, 3, FALSE)
+char_logical <- c("a", "b", "c", TRUE)
+tricky <- c(1, 2, 3, "4")
+
+combined_logical <- c(num_logical, char_logical)
 
 
