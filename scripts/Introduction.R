@@ -16,7 +16,7 @@ length <- 5
 width <- 3.2
 area <- length * width
 area
-
+# Functions
 # b <- sqrt(x = a)
 
 round(digits = 2, x = 3.14159)
@@ -26,6 +26,7 @@ length(no_membrs)
 class(no_membrs)
 str(no_membrs)
 
+# Data types
 respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks")
 length(respondent_wall_type)
 class(respondent_wall_type)
@@ -42,4 +43,10 @@ tricky <- c(1, 2, 3, "4")
 
 combined_logical <- c(num_logical, char_logical)
 
+# Subseting 
+
+respondent_wall_type[2]
+respondent_wall_type[c(3, 2)]
+
+more_respondent_wall_type <- respondent_wall_type[c(1,2,3,2,1,3)]
 
