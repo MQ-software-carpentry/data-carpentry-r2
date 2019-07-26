@@ -80,3 +80,13 @@ year_nmb <- as.numeric(levels(year_fct))[year_fct]
 table(year_nmb)
 table(year_fct)
 summary(year_fct)
+
+
+affect_conflicts <- interviews$affect_conflicts
+affect_conflicts <- as.factor(affect_conflicts)
+plot(affect_conflicts)
+
+affect_conflicts <- interviews$affect_conflicts
+affect_conflicts[is.na(affect_conflicts)] <- "undetermined"
+affect_conflicts <- as.factor(affect_conflicts)
+plot(affect_conflicts)
